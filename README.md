@@ -4,7 +4,7 @@ I build small, focused Linux utilities with an emphasis on **Btrfs, Snapper, GRU
 
 > **Install Linux normally. Extend it with focused tools.**
 
-My work focuses on improving the native Btrfs and Snapper experience without replacing the tools, configuration, or installation process provided by the distribution. Each project addresses a specific gap and can be used independently or as part of a larger, repeatable workflow.
+My projects improve the native Btrfs and Snapper experience without replacing the tools, configuration, or installation process provided by the distribution. Each addresses a specific gap and can be used independently or as part of a larger, repeatable workflow.
 
 ## Featured Project
 
