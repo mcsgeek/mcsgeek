@@ -1,6 +1,6 @@
 # Hi, I'm Scott
 
-I build small, focused Linux utilities for Debian- and Arch-based distributions, with an emphasis on **Btrfs, Snapper, GRUB, and system recovery**.
+I build small, focused Linux utilities with an emphasis on **Btrfs, Snapper, GRUB, and system recovery**.
 
 > **Install Linux normally. Extend it with focused tools.**
 
