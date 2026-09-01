@@ -1,16 +1,18 @@
 # Hi, I'm Scott
 
-I build small, focused Linux utilities for Debian, Ubuntu, and their derivatives, with an emphasis on **Btrfs, Snapper, GRUB, and system recovery**.
+I build small, focused Linux utilities for Debian- and Arch-based distributions, with an emphasis on **Btrfs, Snapper, GRUB, and system recovery**.
 
-My current work focuses on improving the native Btrfs and Snapper experience without replacing the tools and workflows already provided by the distribution.
+> **Install Linux normally. Extend it with focused tools.**
 
-## BootPrep
+My work focuses on improving the native Btrfs and Snapper experience without replacing the tools, configuration, or installation process provided by the distribution. Each project addresses a specific gap and can be used independently or as part of a larger, repeatable workflow.
 
-**[BootPrep](https://github.com/mcsgeek/bootprep)** is my flagship project.
+## Featured Project
 
-BootPrep is a lightweight boot preparation layer for Debian, Ubuntu, and their derivatives using Btrfs and Snapper.
+### [BootPrep](https://github.com/mcsgeek/bootprep)
 
-It is designed to work alongside native tools such as **Btrfs, Snapper, GRUB, and grub-btrfs**, handling the additional boot preparation needed after snapshot operations.
+BootPrep is the activation layer for GRUB-based Linux systems using a nested Btrfs snapshot layout.
+
+It prepares a selected writable snapshot for the next boot, either automatically after a Snapper rollback or through a direct activation workflow. BootPrep works with the system's existing Btrfs, Snapper, GRUB, and UEFI configuration without requiring a filesystem redesign.
 
 ## Companion Utilities
 
@@ -32,4 +34,4 @@ I prefer tools that are:
 * **Safe** – validate the environment before making filesystem or boot-related changes.
 * **Composable** – useful independently, but able to work together as part of a larger workflow.
 
-If you're working with **Debian, Btrfs, Snapper, GRUB, or snapshot-based system recovery**, take a look at [BootPrep](https://github.com/mcsgeek/bootprep) and the companion projects above.
+If you're working with **Btrfs, Snapper, GRUB, or snapshot-based Linux system recovery**, start with [BootPrep](https://github.com/mcsgeek/bootprep), explore the companion projects above, and bring your own configurations and test cases to [BootPrep Discussions](https://github.com/mcsgeek/bootprep/discussions).
