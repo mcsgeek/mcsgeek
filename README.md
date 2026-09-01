@@ -22,7 +22,7 @@ BootPrep is part of a growing collection of focused utilities. Each project has 
 * **[cleanup-bootstrap-root](https://github.com/mcsgeek/cleanup-bootstrap-root)** – Safely cleans the original bootstrap `@` root while preserving its Btrfs subvolumes.
 * **[dpkg-pre-post-snapper](https://github.com/mcsgeek/dpkg-pre-post-snapper)** – Creates descriptive Snapper pre/post snapshots around Debian package transactions.
 * **[add_subvolumes](https://github.com/mcsgeek/add_subvolumes)** – Converts selected root and home directories into independent Btrfs subvolumes.
-* **[add_updategrub-service](https://github.com/mcsgeek/add_updategrub-service)** – Installs a systemd service that runs update-grub during system shutdown.
+* **[add_updategrub-service](https://github.com/mcsgeek/add_updategrub-service)** – Installs a systemd service that regenerates `/boot/grub/grub.cfg` with `grub-mkconfig` before shutdown, reboot, or halt.
 
 ## Project Philosophy
 
